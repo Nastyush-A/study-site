@@ -14,18 +14,29 @@
     <header class="navi">
         <img class="logo" src="../img/logo.svg" alt="Логотип курса">
         <ul class="menu-activ">
-            <li class="activ"><a href="../index.html">Главная</a></li>
-            <li class="activ"><a href="./students.html">Студенты</a></li>
-            <li class="activ"><a href="./about.html">О курсе</a></li>
-            <li class="activ activ-list"><a href="#">Контакты</a></li>
+            <li><a class="activ" href="../index.html">Главная</a></li>
+            <li><a class="activ" href="./students.html">Студенты</a></li>
+            <li><a class="activ" href="./about.html">О курсе</a></li>
+            <li><a class="activ list-activ" href="#">Контакты</a></li>
         </ul>
         <a class="button-enter" href="login.html">Войти</a>
+        <div class="popup">
+            <h3 class="popup-heading">Войти на сайт</h3>
+            <form class="popup-form">
+                <input class="popup-input" name="ljgin" type="text" placeholder="Логин" required>
+                <input class="popup-input" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-enter" type="submit">Войти</button>
+            </form>
+        </div>
+        <script async src="../js/popup.js"></script>
     </header>   
     <div class="page1"> 
         <h1 class="heading">Как нас найти 🗺️️</h1>
-    </div>
-        
-    </div>  
+        <img class="map" src="../img/goole-map.png" alt="Googl карта">
+        <h2>Наши контакты</h2>
+        <p class="contacts">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+        <p class="contacts phone">Тел: +7 (812) 555-55-55</p>
+    </div> 
     <footer class="footer">
         <p class="copy">
             2022 &copy; <a href="" class="innop-link">учебный центр</a>

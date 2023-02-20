@@ -24,7 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     align-self: stretch;
-    color: #213B7E;
+    list-style: none;
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
@@ -33,10 +33,9 @@
     font-size: 20px
 }
 
-.activ:hover {
-    background-color: #FFFFFF;
-    color: #213B7E;
-    text-decoration-line: none;
+li {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .activ {
@@ -50,9 +49,16 @@
     font-size: 20px;
     text-decoration-line: underline;
 }
-.activ-list {
-    color: #213B7E;
+
+.activ:hover {
     background-color: #FFFFFF;
+    color: #213B7E;
+    text-decoration-line: none;
+}
+
+.list-activ {
+    background-color: #FFFFFF;
+    color: #213B7E;
     text-decoration: none;
 }
 
@@ -226,7 +232,9 @@ em {
 /*Students*/
 
 .students {
+    width: 100%;
     max-width: 1200px;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -256,16 +264,53 @@ em {
     font-size: 25px;
 }
 
+.video {
+    width: 820px;
+    height: 549.33px;
+    height: auto;
+}
+
+/*Контакты*/
+
+.map {
+    width: 100%;
+    max-width: 1268px;
+    height: auto;
+}
+
+.contacts {
+    ont-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.phone {
+    text-decoration: underline;
+}
+
 /*media просто поиграться:)*/
 
 @media (max-width: 520px) {
     .heading {
         font-size: 20px;
     }
+    .logo {
+        display: none;
+    }
     h2 {
         font-size: 18px;
     }
     .text {
         font-size: 11px;
+    }
+    .button-enter{
+        width: 474px;
+    }
+    .popup {
+        width: 300px; 
+    }
+    .video {
+        width: 400px;
     }
 }
