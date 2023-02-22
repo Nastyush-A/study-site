@@ -234,7 +234,6 @@ em {
 .students {
     width: 100%;
     max-width: 1200px;
-    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -279,10 +278,11 @@ em {
 }
 
 .contacts {
-    ont-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    margin: 0 0 30px;
 }
 
 .phone {
@@ -312,5 +312,13 @@ em {
     }
     .video {
         width: 400px;
+    }
+    .students {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .students {
+        display: block;
     }
 }
