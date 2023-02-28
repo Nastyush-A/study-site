@@ -193,10 +193,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-.uchim {
-
-}
-
 .learning {
     width: 130px;
     height: 90px;
@@ -365,12 +361,10 @@ em {
     background-color: hsl(40, 32%, 83%);
 }
 
-/* about section */
-
 .about2{
     width: 100%;
     height: auto;
-    padding: 50px 10vw;
+    padding: 0px 10vw;
 }
 
 .heading-about{
@@ -380,15 +374,28 @@ em {
     text-transform: capitalize;
 }
 
-.about-container{
-    margin: 150px 0 100px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 50px;
+.hello{
+    text-align: center;
+    margin: 10px;
+    color: #3AA828;;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.left-foto, .right-p{
+.about-container{
+    margin: 100px 0 100px;
+    width: 100%;
+    display: flex;
+}
+
+.right-p {
+    position: relative;
+    margin-left: 20px;
+}
+
+.left-foto {
     position: relative;
 }
 
@@ -396,7 +403,7 @@ em {
     content: 'Это я';
     text-transform: capitalize;
     position: absolute;
-    right: 106px;
+    right: 38px;
     top: 10px;
 }
 
@@ -409,10 +416,35 @@ em {
 }
 
 .about-p{
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 35px;
+    margin-top: 6px;
     margin-bottom: 40px;
+}
+
+.style-h3 {
+    color: #1c763c;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.style-li {
+    display: list-item;
+    color: #213B7E;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.style-li:hover {
+    color: #000000;
+    text-decoration: underline;
 }
 
 /*media просто поиграться:)*/
