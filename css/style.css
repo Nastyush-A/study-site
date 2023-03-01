@@ -337,6 +337,7 @@ em {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 16;
+    border: 0px;
 }
 
 .contacts {
